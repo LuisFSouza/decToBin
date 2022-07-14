@@ -2,11 +2,9 @@
 
 int main (){
 
-    int n, resto, quociente, contador=1, bin = 0;
+    int resto, quociente, contador=1, bin = 0;
 
-    scanf("%d", &n);
-
-    quociente = n;
+    scanf("%d", &quociente);
 
     while(quociente > 0)
     {
